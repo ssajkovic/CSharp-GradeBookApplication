@@ -4,7 +4,7 @@ namespace GradeBook.GradeBooks
 {
     public class StandardGradeBook : BaseGradeBook
     {
-        public StandardGradeBook(string name) : base(name) //call the base constructor upon completion
+        public StandardGradeBook(string name, bool weighted) : base(name, weighted) //call the base constructor upon completion
         {
             Type = GradeBookType.Standard;
         }
